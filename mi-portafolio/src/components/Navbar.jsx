@@ -10,9 +10,12 @@ export default function Navbar() {
         <a href="#skills" className="hover:text-teal-400">Skills</a>
         <a href="#projects" className="hover:text-teal-400">Projects</a>
       </div>
-      <button className="px-6 py-2 text-sm font-bold text-white uppercase bg-teal-400 hover:bg-teal-500">
-        Contactar
-      </button>
+      <a 
+        href="#contact" 
+        className="px-6 py-2 text-sm font-bold text-white uppercase transition-colors duration-300 bg-teal-400 rounded-sm hover:bg-teal-500"
+      >
+        Contact
+      </a>
     </nav>
   );
 }

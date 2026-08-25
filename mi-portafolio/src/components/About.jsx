@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="about" className="flex flex-col items-center gap-12 px-8 py-20 bg-white md:flex-row md:px-20">
       <div className="w-full md:w-1/2">
-        {/* Aquí luego puedes reemplazar el src con la ruta de tu propia foto */}
+
         <img 
           src={imgAvatar}
           alt="Retrato" 

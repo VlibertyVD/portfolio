@@ -25,7 +25,7 @@ desc: "An interactive platform for learning English vocabulary, leveraging AI in
 
   return (
     <section id="projects" className="px-8 py-20 bg-gray-50 md:px-20">
-      <h2 className="mb-12 text-3xl font-bold text-gray-300 uppercase">Trabajo Destacado</h2>
+      <h2 className="mb-12 text-3xl font-bold text-gray-600 uppercase">Projects</h2>
       <div className="space-y-12">
         {projectsData.map((project, index) => (
           <div key={index} className="flex flex-col overflow-hidden bg-gray-900 rounded-sm lg:flex-row">
