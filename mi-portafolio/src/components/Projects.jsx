@@ -4,9 +4,18 @@ import energyPlanner from '../assets/red_energy.png';
 import attendanceImg from '../assets/Attendance_Adjustment_Tickets.png';
 import attendanceVid from '../assets/attendance_promo.mp4';
 import MediaCarousel from './MediaCarousel';
+import fastDevToolsImg from '../assets/fast_dev_tool.png';
 
 export default function Projects() {
   const projectsData = [
+    {
+      title: "Fast DevTools",
+      desc: "An efficiency-focused Odoo 19 developer tool published on the official store. It streamlines the engineering workflow by integrating custom update profiles, cascading module upgrades, and instant debug-mode toggling directly into the top navigation bar, eliminating context switching.",
+      tags: ["Odoo 19", "Odoo 18", "Python", "XML", "Developer Tools"],
+      image: fastDevToolsImg,
+      link: "https://apps.odoo.com/apps/modules/19.0/fast_devtools"
+    },
+
     {
       title: "Attendance Adjustment Tickets",
       desc: "An open-source Odoo 19 module published on the official Odoo App Store. It implements a streamlined HR incidence management system, allowing employees to submit and track justification tickets for missed check-ins, check-outs, or full-day absences.",

@@ -1,10 +1,12 @@
 export default function Footer() {
   return (
-    <footer className="flex flex-col items-center justify-between px-8 py-6 bg-gray-900 md:flex-row md:px-20">
-      <div className="text-lg font-bold text-white uppercase">
+    <footer className="flex flex-col items-center px-8 py-6 bg-gray-900 md:flex-row md:px-20">
+      
+      <div className="flex justify-center flex-1 text-lg font-bold text-white uppercase md:justify-start">
         Daniel.Portfolio
       </div>
-      <div className="flex gap-6 mt-4 text-xs font-bold text-gray-400 md:mt-0">
+      
+      <div className="flex justify-center gap-6 mt-4 text-xs font-bold text-gray-400 md:mt-0">
         <a 
           href="https://github.com/VlibertyVD" 
           target="_blank" 
@@ -22,9 +24,11 @@ export default function Footer() {
           LinkedIn
         </a>
       </div>
-      <div className="mt-4 text-xs text-gray-500 md:mt-0">
+      
+      <div className="flex justify-center flex-1 mt-4 text-xs text-gray-500 md:mt-0 md:justify-end">
         © 2026 DANIEL VENEGAS. ALL RIGHTS RESERVED.
       </div>
+      
     </footer>
   );
 }
